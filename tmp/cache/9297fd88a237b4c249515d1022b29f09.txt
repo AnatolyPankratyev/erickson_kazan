@@ -1,0 +1,99 @@
+a:2:{s:4:"data";s:5449:"<li>
+    <a href="category/rezinotehnicheskaja-produktsija-rti">Резинотехническая продукция РТИ</a>
+    </li><li>
+    <a href="category/rukava-pvh-napornye-armirovannye-poliamidnoj-nitju">Рукава ПВХ напорные, армированные полиамидной нитью</a>
+    </li><li>
+    <a href="category/polimernye-materialy">Полимерные материалы</a>
+    </li><li>
+    <a href="category/metizy-i-krepezh">Метизы и крепёж</a>
+    </li><li>
+    <a href="category/asbestotehnicheskaja-produktsija">Асбестотехническая продукция</a>
+    </li><li>
+    <a href="category/gazosvarochnoe-oborudovanie">Газосварочное оборудование</a>
+    </li><li>
+    <a href="category/metaloobrabatyvajuschee-oborudovanie">Металообрабатывающее оборудование</a>
+    </li><li>
+    <a href="category/stoljarno-slesarnyj-instrument">Столярно-слесарный инструмент</a>
+    </li><li>
+    <a href="category/uborochnyj-inventar">Уборочный инвентарь</a>
+    </li><li>
+    <a href="category/spetsodezhda-rabochaja">Спецодежда рабочая</a>
+    </li><li>
+    <a href="category/promyshlennaja-himija">Промышленная химия</a>
+    </li><li>
+    <a href="category/strojmaterialy">Стройматериалы</a>
+    </li><li>
+    <a href="category/ljuki-kanalizatsionnye">Люки канализационные</a>
+    </li><li>
+    <a href="category/steklotkani">Стеклоткани</a>
+    </li><li>
+    <a href="category/provoloka">Проволока</a>
+    </li><li>
+    <a href="category/teploizoljatsionnye-materialy">Теплоизоляционные материалы</a>
+    </li><li>
+    <a href="category/asbestotsementnye-izdelija">Асбестоцементные изделия</a>
+    </li><li>
+    <a href="category/lakokrasochnye-izdelija">Лакокрасочные изделия</a>
+    </li><li>
+    <a href="category/elektroizoljatsionnye-materialy">Электроизоляционные материалы</a>
+    </li><li>
+    <a href="category/spetsodezhda">Спецодежда</a>
+    </li><li>
+    <a href="category/skorlupa-ppu">Скорлупа ППУ</a>
+    </li><li>
+    <a href="category/bitum-stroitelnyj">Битум строительный</a>
+    </li><li>
+    <a href="category/gidroizoljatsionnye-materialy">Гидроизоляционные материалы</a>
+    </li><li>
+    <a href="category/tara-i-upakovka">Тара и упаковка</a>
+    </li><li>
+    <a href="category/tsement-glinozemistyj">Цемент глиноземистый</a>
+    </li><li>
+    <a href="category/ogneupornye-shamotnye-materialy">Огнеупорные шамотные материалы</a>
+    </li><li>
+    <a href="category/koljuchaja-provoloka">Колючая проволока</a>
+    </li><li>
+    <a href="category/instrument-dlja-pokraski">Инструмент для покраски</a>
+    </li><li>
+    <a href="category/hozinventar">Хозинвентарь</a>
+    </li><li>
+    <a href="category/tsvetnoj-metalloprokat">Цветной металлопрокат</a>
+    </li><li>
+    <a href="category/protivomoroznye-dobavki-v-beton">Противоморозные добавки в бетон</a>
+    </li><li>
+    <a href="category/teplonositeli">Теплоносители</a>
+    </li><li>
+    <a href="category/provoloka-otsinkovannaja-termoobrabotannaja">Проволока оцинкованная термообработанная</a>
+    </li><li>
+    <a href="category/sito-dlja-grohotov">Сито для грохотов</a>
+    </li><li>
+    <a href="category/truba-chugunnaja">Труба чугунная</a>
+    </li><li>
+    <a href="category/roliki-konvejernye">Ролики конвейерные</a>
+    </li><li>
+    <a href="category/chugunnye-zadvizhki">Чугунные задвижки</a>
+    </li><li>
+    <a href="category/mehanicheskoe-soedinenie-dlja-konvejernyh-lent">Механическое соединение для конвейерных лент</a>
+    </li><li>
+    <a href="category/truba-korsis">Труба корсис</a>
+    </li><li>
+    <a href="category/kompleksnoe-snabzhenie-predprijatij">Комплексное снабжение предприятий</a>
+    </li><li>
+    <a href="category/antikorrozionnye-sredstva">Антикоррозионные средства</a>
+    </li><li>
+    <a href="category/setki-riflenye-gost-3306-88">Сетки рифлёные ГОСТ 3306-88</a>
+    </li><li>
+    <a href="category/polietilenovaja-truba">Полиэтиленовая труба</a>
+    </li><li>
+    <a href="category/sobstvennoe-proizvodstvo">Собственное производство</a>
+    </li><li>
+    <a href="category/ohlazhdajuschie-zhidkosti">Охлаждающие жидкости</a>
+    </li><li>
+    <a href="category/stekloomyvajuschie-zhidkosti">Стеклоомывающие жидкости</a>
+    </li><li>
+    <a href="category/teplonositel-dlja-sistem-otoplenija">Теплоноситель для систем отопления</a>
+    </li><li>
+    <a href="category/novinki">Новинки</a>
+    </li><li>
+    <a href="category/tovary-bez-gruppy">Товары без группы</a>
+    </li>";s:8:"end_time";i:1586111804;}

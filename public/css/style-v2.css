@@ -1,0 +1,1358 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+    --primary-color: #515151;
+    --secondary-color: #7d7d7d;
+    --tertiary-color: #d8dada;
+    --primary-accent-color: #ef4c18;
+    --secondary-accent-color: #68c8c6;
+    --footer-background: #ffddb3;
+    --sup-col-green: #669D62;
+    --sup-col-yellow: #EEB111;
+    --sup-col-red: #F5866C;
+    --sup-col-purple: #9174A7;
+    --sup-col-blue: #498BC9;
+    --sup-col-green-op: #B8CFA2;
+    --sup-col-yellow-op: #FFE293;
+    --sup-col-red-op: #FBC9BF;
+    --sup-col-purple-op: #C9B6D0;
+    --sup-col-blue-op: #8DBCCC;
+}
+
+@font-face {
+    font-family: 'MuseoSlab300';
+    src: url('../fonts/Museo_Slab_300.otf');
+}
+@font-face {
+    font-family: 'MuseoSlab700';
+    src: url('../fonts/MuseoCyrl700.otf');
+}
+@font-face {
+    font-family: 'Christopher';
+    src: url('../fonts/comesinhandy.ttf');
+}
+@font-face {
+    font-family: 'Verdana';
+    src: url('../fonts/verdana.ttf');
+}
+@font-face {
+    font-family: 'Verdana-Bold';
+    src: url('../fonts/verdanab.ttf');
+}
+@font-face {
+    font-family: 'AileronThin';
+    src: url('../fonts/Aileron-Thin.otf');
+}
+.font-cr {
+    font-family: 'Christopher';
+}
+.font_M700 {
+    font-family: 'MuseoSlab700';
+}
+.font_M300 {
+    font-family: 'MuseoSlab300';
+}
+.ma-color {
+    color: var(--primary-accent-color);
+}
+.sm-color {
+    color: var(--secondary-accent-color);
+}
+
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {
+    .show-over-992 {
+        display: block;
+    }
+    .hide-over-992 {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {}
+
+@media (max-width: 576px) {}
+@media (max-width: 768px) {}
+@media (max-width: 992px) {
+    .show-before-992 {
+        display: block;
+    }
+    .hide-before-992 {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {}
+
+#circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+::selection {
+    color: var(--sup-col-green);
+    background-color: var(--sup-col-yellow-op);
+}
+@media (min-width: 768px) {
+    .lg_dis_none {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .sm_dis_none {
+        display: none;
+    }
+}
+
+.title_block {
+    color: var(--primary-accent-color);
+    font-size: 2.5em;
+    font-family: 'MuseoSlab700', serif;
+}
+.contact_block {
+    max-width: 992px;
+}
+.contact_block button {
+    border-radius: 25px;
+    background-color: var(--primary-accent-color);
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: white;
+}
+.contact_block button:hover {
+    background-color: #ee7952;
+    color: white;
+}
+
+.font-cr {
+}
+
+.font-cr {
+    font-family: 'Christopher', sans-serif;
+}
+
+.font_M700 {
+    font-family: 'MuseoSlab700';
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+}
+p {
+    font-size: 0.9em;
+}
+
+body {
+    font-family: 'MuseoSlab300';
+    color: var(--primary-color);
+    height: 100%;
+}
+
+
+nav {
+    background-color: var(--tertiary-color);
+}
+
+nav li a {
+    color: var(--primary-color);
+}
+nav li a:hover {
+    color: var(--secondary-color);
+}
+
+
+.carousel-caption {
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 25px;
+    padding: 1em;
+    padding-bottom: 2em;
+
+}
+.carousel-caption h1 {
+    color: var(--primary-accent-color);
+}
+.carousel-caption p {
+    color: #515151;
+}
+.btn_main a {
+    color: white;
+    font-weight: bold;
+}
+.btn_main a:hover {
+    text-decoration: none;
+}
+.btn_main {
+    text-align: center;
+    background-color: var(--secondary-accent-color);
+    border-radius: 25px;
+    display: inline;
+}
+.btn_main:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+nav {
+    z-index: 2;
+}
+.index_first_block {
+    z-index: 1;
+}
+.wave_top {
+    position: relative;
+    z-index: 1;
+}
+.dropdown-menu {
+}
+.wave_top svg {
+    margin-top: -2px;
+}
+@media (max-width: 768px) {
+    .wave_top svg {
+    margin-top: -20px;
+    }
+}
+@media (min-width: 768px) {
+    .index_first_block {
+        margin-top: -100px;
+    }
+}
+@media (max-width: 992px) {
+    .carousel-caption h1 {
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 998px) {
+    .index_first_block {
+        margin-top: -120px;
+    }
+}
+
+.index_first_block h1 {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .bd-example {
+        display: none;
+    }
+}
+.index_first_block-IN {
+    margin-top: 1em;
+    background-color: var(--primary-accent-color);
+    padding: 1em;
+    text-align: center;
+    border-radius: 25px;
+}
+@media (min-width: 768.1px) {
+    .index_first_block-IN {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .index_founder img {
+        width: 50%;
+        margin-bottom: 1em;
+    }
+}
+
+
+.index_students {
+    background-image: url('../img/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.index_students
+.index_students_IN {
+    background-color: #cacaca;
+    border-radius: 25px;
+}
+.index_students p {
+    text-align: center;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    /* padding: 0;
+    margin: 0; */
+}
+
+.max-width_DEV {
+    max-width: 780px;
+}
+
+.index_about_ericson {
+    background-color: #f7f7f7;
+}
+.index_about_ericson h4 {
+    font-size: 1em;
+}
+.index_about_ericson h2 {
+    font-family: 'Christopher';
+    font-size: 2.8em;
+    color: var(--primary-accent-color);
+}
+.index_about_ericson h3 {
+    font-size: 1.2em;
+}
+.index_our_clients h1 {
+    font-family: 'MuseoSlab700';
+    text-align: center;
+    padding-top: 1em;
+    color: #515151;
+}
+.btn_orange a {
+    color: white;
+    font-weight: bold;
+}
+.btn_orange a:hover {
+    text-decoration: none;
+}
+.btn_orange {
+    text-align: center;
+    background-color: var(--primary-accent-color);
+    width: 250px;
+    border-radius: 25px;
+}
+.btn_orange:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.index_ourGoal {
+    color: white;
+}
+.index_ourGoal_IN {
+    background-color: var(--primary-accent-color);
+    padding: 2em;
+    border-radius: 50px;
+}
+.index_ourGoal p {
+    font-size: 1.05em;
+}
+
+
+.index_programms a {
+    color: white;
+
+}
+.index_programms a:hover {
+    text-decoration: none;
+}
+.btn_blue {
+    text-align: center;
+    background-color: var(--secondary-accent-color);
+    width: 250px;
+    border-radius: 25px;
+}
+.btn_blue:hover {
+    cursor: pointer;
+    background-color: var(--sup-col-blue-op);
+
+}
+.index_mostPopular {
+    background-color: #f7f7f7;
+}
+.index_mostPopular h4 {
+    font-size: 1.2em;
+}
+.index_mostPopular span {
+    color: var(--primary-accent-color);
+    font-size: 1.9em;
+}
+.index_mostPopular h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.btn_blue a {
+    color: white;
+
+}
+.btn_blue a:hover {
+    text-decoration: none;
+}
+
+.index_directions h3 {
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+.index_directions h2 {
+    font-size: 2.8em;
+    color: var(--primary-accent-color);
+    text-align: center;
+}
+
+
+.card-title {
+    text-transform: uppercase;
+    font-family: 'MuseoSlab700';
+    font-size: 1em;
+}
+.card .btn {
+    background-color: var(--secondary-accent-color);
+    color: white;
+    border-radius: 20px;
+}
+
+.card .btn:hover {
+    background-color: var(--sup-col-blue-op);
+}
+/*THANKS PAGE*/
+.thanks_block {
+    background-color: var(--tertiary-color);
+    color: var(--primary-accent-color);
+    border-radius: 50px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+.thanks_block h1, h2 {
+    font-family: 'MuseoSlab700';
+}
+.back_button {
+    background-color: var(--primary-accent-color);
+    border-radius: 25px;
+    color: white;
+    font-size: large;
+}
+.back_button:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    color: white;
+}
+.back_button:active {
+    box-shadow: none;
+}
+/*THANKS PAGE*/
+/*ABOUT PAGE*/
+.about_top {
+    background-image: url(../img/bg_about1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: 'MuseoSlab700', serif;
+    height: 500px;
+}
+.about_top h1 {
+    font-size: 3.5em;
+}
+.about_top p {
+    margin-top: 1em;
+    font-size: 1.5em;
+    max-width: 900px;
+}
+@media (max-width: 428px) {
+    .about_top h1 {
+        font-size: 2.5em;
+    }
+    .about_top p {
+        font-size: 1em;
+    }
+}
+
+.about_3 h1 {
+    font-family: 'MuseoSlab700';
+    padding-top: 2em;
+}
+
+.about_4 h1 {
+    font-family: 'MuseoSlab700';
+    padding-top: 2em;
+    text-align: center;
+    color: var(--secondary-accent-color);
+    letter-spacing: 0.18em;
+}
+.methods {
+    background-color: var(--tertiary-color);
+    padding: 1.5em;
+    margin: 1em;
+    border-radius: 25px;
+}
+.methods p {
+    text-align: justify;
+    margin: 0;
+    color: var(--primary-color);
+}
+@media (max-width: 576px) {
+    .methods p {
+        text-align: center;
+    }
+}
+
+.about_5 h1 {
+    text-align: center;
+    font-family: 'MuseoSlab700';
+    padding-top: 2em;
+}
+.about_5 h5 {
+    font-family: 'Verdana-Bold';
+}
+.about_5 img {
+    width: 100%;
+}
+
+.about_6 h1 {
+    text-align: center;
+    font-family: 'MuseoSlab700';
+    padding-top: 2em;
+    font-size: 1.5em;
+}
+
+.about_7 h1 {
+    text-align: center;
+    font-family: 'MuseoSlab700';
+    padding-top: 2em;
+    font-size: 1.5em;
+}
+
+.about_8 h1 {
+    text-align: center;
+    font-family: 'MuseoSlab700';
+    padding-top: 2em;
+    font-size: 1.5em;
+}
+
+.about_9 h1 {
+    text-align: center;
+    font-family: 'MuseoSlab700';
+    padding-top: 2em;
+    font-size: 1.5em;
+}
+/*ABOUT PAGE*/
+/*MANAGEMENT COACHING PAGE*/
+.management_top {
+    background-image: url(../img/bg_management_coaching.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: 'MuseoSlab700', serif;
+    height: 500px;
+}
+.management_top h1 {
+    font-size: 2.5em;
+}
+.management_top p {
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+@media (max-width: 428px) {
+    .management_top h1 {
+        font-size: 1.8em;
+    }
+    .management_top p {
+        font-size: 0.9em;
+    }
+}
+
+.management_2 h1 {
+    text-align: center;
+    font-family: 'MuseoSlab700';
+    padding-top: 2em;
+    font-size: 2em;
+}
+.management_2 iframe {
+    width: 100%;
+    max-width: 700px;
+}
+.management_2 iframe {
+    height: 400px;
+}
+@media (max-width: 466px) {
+    .management_2 iframe {
+        height: 250px;
+    }
+}
+@media (max-width: 576px) {
+    .management_2 iframe {
+        height: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .management_2 iframe {
+        height: 300px;
+    }
+}
+
+.management_3 {
+    background-image: url(../img/m_bg_3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: 'MuseoSlab700';
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.management_3 h1 {
+    margin-bottom: 1em;
+}
+.management_3 hr {
+    background-color: white;
+}
+.management_3 h5 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.management_4 h1 {
+    text-align: center;
+    font-family: 'MuseoSlab700';
+    padding-top: 2em;
+    font-size: 1.8em;
+}
+.management_4 .number {
+    height: 40px;
+    width: 40px;
+    border: solid 1px var(--primary-color);
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+.management_4 .row {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/*MANAGEMENT COACHING PAGE*/
+/*SCIENCE AND ART PAGE*/
+.saa_1 img {
+    width: 100%;
+    max-width: 220px;
+}
+.saa_1 h5 {
+    text-align: center;
+    font-family: 'MuseoSlab700';
+}
+
+.saa_2 {
+    background-image: url(../img/mentor-bundle-erickson_20.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: 'MuseoSlab700';
+    padding-top: 4em;
+    padding-bottom: 4em;
+    color: var(--primary-color);
+}
+.saa_2 .container {
+    background-color: rgba(255,255,255,0.7);
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+.saa_2 hr {
+    background-color: var(--primary-color);
+}
+
+.saa_3 h1 {
+    text-align: center;
+    font-family: 'MuseoSlab700';
+    padding-top: 1.5em;
+    font-size: 1.5em;
+}
+.saa_3 p {
+    text-align: center;
+}
+
+.saa_3 iframe {
+    width: 100%;
+    max-width: 700px;
+}
+.saa_3 iframe {
+    height: 400px;
+}
+@media (max-width: 466px) {
+    .saa_3 iframe {
+        height: 250px;
+    }
+}
+@media (max-width: 576px) {
+    .saa_3 iframe {
+        height: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .saa_3 iframe {
+        height: 300px;
+    }
+}
+.saa_4 {
+    margin-top: 5em;
+}
+.saa_4 h1 {
+    font-family: 'MuseoSlab700';
+    font-size: 1.8em;
+}
+.saa_4 p {
+    font-family: 'MuseoSlab700';
+}
+.saa_4 h3 {
+    color: var(--primary-accent-color);
+    font-family: 'MuseoSlab700';
+}
+
+.saa_5 .container {
+    padding: 2em;
+    background-color: var(--secondary-accent-color);
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+}
+.saa_5 h1 {
+    font-family: 'MuseoSlab700';
+}
+.saa_5 h4 {
+    font-family: 'MuseoSlab700';
+}
+.border-white-rad50 {
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.btn_registration {
+    text-align: center;
+    background-color: var(--primary-accent-color);
+    border-radius: 25px;
+    font-size: 1.2em;
+    color: white;
+    padding: 0.5em;
+}
+.btn_registration:hover {
+    background-color: var(--tertiary-color);
+}
+
+.saa_6 h1 {
+    font-family: 'MuseoSlab700';
+}
+.saa_6 img {
+    width: 100%;
+}
+.saa_6 span {
+    cursor: pointer;
+    color: var(--primary-accent-color);
+}
+
+.saa_7 {
+    text-align: center;
+}
+.saa_7 h1 {
+    font-family: 'MuseoSlab700';
+    text-align: center;
+}
+.saa_7 p {
+    font-family: 'MuseoSlab700';
+    text-align: center;
+    font-size: 1.2em;
+}
+.saa_7 iframe {
+    width: 100%;
+    max-width: 700px;
+}
+.saa_7 iframe {
+    height: 400px;
+}
+.saa_7 .carousel-control-prev {
+    background-color: var(--secondary-accent-color);
+    height: 98%;
+}
+.saa_7 .carousel-control-next {
+    background-color: var(--secondary-accent-color);
+    height: 98%;
+}
+@media (max-width: 466px) {
+    .saa_7 iframe {
+        height: 250px;
+    }
+}
+@media (max-width: 576px) {
+    .saa_7 iframe {
+        height: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .saa_7 iframe {
+        height: 300px;
+    }
+}
+/*SCIENCE AND ART PAGE*/
+
+
+
+
+
+
+
+footer {
+    background-color: var(--footer-background);
+}
+footer h4 {
+    font-size: 1.3em;
+    font-family: 'MuseoSlab700';
+}
+footer p {
+    font-size: 0.8em;
+    font-family: 'AileronThin';
+    text-align: justify;
+}
+footer a {
+    color: #515151;
+}
+footer a:hover {
+    color: #f15a29;
+}
+.footer_social_media1 {
+    width: 45px;
+    height: 45px;
+    background-image: url(../img/inst1.png);
+    background-size: contain;
+    cursor: pointer;
+}
+.footer_social_media1:hover {
+    background-image: url(../img/inst2.png);
+}
+.footer_social_media2 {
+    width: 45px;
+    height: 45px;
+    background-image: url(../img/vk1.png);
+    background-size: contain;
+    cursor: pointer;
+}
+.footer_social_media2:hover {
+    background-image: url(../img/vk2.png);
+}
+.footer_social_media3 {
+    width: 45px;
+    height: 45px;
+    background-image: url(../img/fb1.png);
+    background-size: contain;
+    cursor: pointer;
+}
+.footer_social_media3:hover {
+    background-image: url(../img/fb2.png);
+}
+.wave_footer {
+    height: 50px;
+    background-image: url(../img/wave_top.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+@media (max-width: 440px) {
+    .wave_footer {
+        height: 25px;
+    }
+}
+@media (max-width: 216px) {
+    .wave_footer {
+        height: 15px;
+    }
+}
+
+
+.ccnbs a {
+    color: var(--secondary-color);
+}
+
+.but_l {
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.but_l a {
+    color: #f15a29;
+    text-transform: uppercase;
+    font-family: 'MuseoSlab700';
+}
+.but_l:hover {
+    background-color: #f15a29;
+}
+.but_l a:hover {
+    text-decoration: none;
+}
+.but_l:hover a {
+    color: white;
+}
+
+
+.card_MC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-accent-color);
+    border-radius: 30px;
+    font-family: 'MuseoSlab700';
+    color: #515151;
+    width: 100%;
+    height: 100%;
+}
+.card_MC:hover {
+    background-color: var(--primary-accent-color);
+}
+.fb-3 a:hover {
+    text-decoration: none;
+    border-radius: 30px;
+    color: black;
+}
+.fb-3 a {
+    width: 100%;
+    height: 100%;
+}
+.fis_back {
+    background-color: var(--secondary-accent-color);
+    padding: 3em;
+    color: white;
+    border-radius: 35px;
+}
+@media (max-width: 576px) {
+    .fis_back h3 {
+        font-size: 1.3em;
+    }
+}
+
+
+.par_m {
+    background-color: #e4e4e4;
+    color: #515151;
+    font-family: 'MuseoSlab700';
+    padding: 1.4em;
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+}
+.par_m p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.saa_cci2 {
+    width: 100%;
+}
+
+.accordion button:hover {
+    text-decoration: none;
+}
+.accordion button:active {
+    text-decoration: none;
+}
+.accordion button:visited {
+    text-decoration: none;
+}
+.accordion button:focus {
+    text-decoration: none;
+}
+.btn-primary-orange {
+    background-color: var(--primary-accent-color);
+    color: white;
+}
+.btn-primary-orange:hover {
+    color: white;
+    background-color: #af350d;
+}
+
+.nsaa2 p {
+    font-size: 0.8em;
+    font-family: 'MuseoSlab700';
+    text-align: center;
+}
+.nsaa2 .col-md-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .nsaa2 img {
+        width: 50%;
+        margin-bottom: 2em;
+    }
+}
+
+.nsaa3 h3 {
+    color: var(--secondary-accent-color);
+    font-family: 'MuseoSlab700';
+}
+.nsaa3 a {
+    color: var(--primary-accent-color);
+}
+.nsaa4 h3 {
+    color: var(--primary-accent-color);
+    font-family: 'MuseoSlab700';
+}
+.nsaa4 h5 {
+    color: var(--primary-accent-color);
+    font-family: 'MuseoSlab700';
+}
+.nsaa4 .col-md-6 {
+    border-left: 3px solid #8FC8D1;
+    padding-left: 15px;
+    height: 100%;
+    margin-top: 2em;
+}
+.nsaa5 h3 {
+    color: var(--secondary-accent-color);
+    font-family: 'MuseoSlab700';
+}
+@media (max-width: 768px) {
+    .saa_h1 {
+        font-size: 1.5em!important;
+    }
+}
+.nsaa6 h3 {
+    color: var(--secondary-accent-color);
+    font-family: 'MuseoSlab700';
+}
+.orange {
+    color: var(--primary-accent-color);
+}
+.nsaa7 h3 {
+    color: var(--secondary-accent-color);
+    font-family: 'MuseoSlab700';
+}
+.saa-modules {
+    background-color: #eaeff4;
+}
+.nsaa8 h3 {
+    color: var(--secondary-accent-color);
+    font-family: 'MuseoSlab700';
+}
+.card {
+    border: 1px solid rgba(0,0,0,.125)!important;
+}
+
+.photo_in {
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery h5 {
+    text-transform: uppercase;
+    font-family: 'MuseoSlab700';
+}
+.gallery iframe {
+    width: 100%;
+}
+@media (max-width: 576px) {
+    .gallery iframe {
+        width: 80%;
+        height: 200px;
+    }
+}
+@media (min-width: 576.1px) {
+    .gallery iframe {
+        width: 100%;
+        height: 270px;
+    }
+}
+@media (min-width: 768px) {
+    .gallery iframe {
+        width: 100%;
+        height: 200px;
+    }
+}
+@media (min-width: 992px) {
+    .gallery iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
+.gifts th {
+    font-family: 'MuseoSlab700';
+    color: var(--primary-accent-color);
+    font-size: 1.8em;
+}
+.gifts123 span {
+    font-family: 'MuseoSlab700';
+}
+.image-person {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.image-person img {
+    width: 100%;
+}
+.about-person p {
+    font-size: 1em;
+    text-align: justify;
+}
+
+
+.gallery a:hover {
+    text-decoration: none;
+}
+.gallery-style {
+    display: flex;
+    align-items: end;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+.gallery-style:hover {
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+    padding-left: 5em;
+}
+.gallery-style h2 {
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+    background-color: var(--primary-accent-color);
+    padding: 0.5em;
+}
+.gallery-photos {
+    background-image: url("../img/bg_gal_photos.png");
+}
+.gallery-videos {
+    background-image: url("../img/bg_gal_videos.png");
+}
+.gallery-feedbacks {
+    background-image: url("../img/bg_gal_feedbacks.png");
+}
+
+
+
+.gal_photos h1 {
+    font-family: 'MuseoSlab700';
+    text-align: center;
+    color: var(--primary-accent-color);
+    font-size: 1.8em;
+}
+.gal_photos img {
+    width: 100%;
+}
+
+.car-in-block {
+    height: 440px;
+}
+.car-left {
+    width: 50%;
+    background-color: var(--primary-accent-color);
+    color: white;
+}
+.car-left h2 {
+    text-transform: uppercase;
+}
+.car-left a {
+    border: solid 1px white;
+    border-radius: 25px;
+    padding: 0.5em;
+    color: white;
+}
+.car-left a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: var(--primary-accent-color);
+}
+.car-right {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+    top: 80%;
+}
+@media (max-width: 992px) {
+    .car-left h2 {
+        font-size: 1em;
+    }
+    .car-left p {
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 768px) {
+    .progs-car {
+        display: none;
+    }
+}
+
+.button-a {
+    color: white;
+}
+.button-a:hover {
+    text-decoration: none;
+    color: white;
+}
+#modal-open-start h5 {
+    font-family: MuseoSlab700;
+    font-size: 1.8em;
+}
+#modal-open-start h3 {
+    font-family: MuseoSlab700;
+    color: var(--primary-accent-color);
+
+}
+
+.tc-block-1 img {
+    width: 100%;
+}
+.c-persons h1 {
+    font-family: MuseoSlab700;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-accent-color);
+}
+@media (min-width: 992px) {
+    .c-persons h5 {
+        height: 48px;
+    }
+    .c-persons p {
+        height: 44px;
+    }
+}
+.c-persons .persons-img {
+    height: 350px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 290px;
+}
+.c-persons h5 {
+    font-family: MuseoSlab700;
+}
+.c-persons h6 {
+    color: var(--primary-accent-color);
+    font-family: MuseoSlab700;
+}
+
+.all-programs h1 {
+    font-family: MuseoSlab700;
+    text-transform: uppercase;
+    color: var(--primary-accent-color);
+}
+.programs-item {
+    box-shadow: 0 16px 32px 1px rgba(31,41,46,.18);
+    min-height: 170px;
+}
+.programs-item img {
+    width: 100%;
+}
+.programs-item h3 {
+    padding-top: 0.2em;
+    font-family: MuseoSlab700;
+    color: var(--secondary-accent-color);
+}
+.programs-item a {
+    color: white;
+    background-color: var(--primary-accent-color);
+    padding: 0.8em;
+    margin: 1em;
+    border-radius: 25px;
+}
+.programs-item a:hover {
+    text-decoration: none;
+    border: solid 1px var(--primary-accent-color);
+    color: var(--primary-accent-color);
+    background-color: white;
+}
+
+.pac-1-block p {
+    font-size: 1em;
+}
+.pac-1-block img {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .pac-2-block h4 {
+        height: 144px;
+    }
+}
+@media (min-width: 992px) {
+    .pac-2-block h4 {
+        height: 87px;
+    }
+}
+
+.enneagram p {
+    text-align: justify;
+}
+.en-1block h4 {
+    font-family: 'MuseoSlab700';
+    color: var(--primary-accent-color);
+}
+.en-1block h5 {
+    color: var(--secondary-accent-color);
+}
+.en-2block {
+    background-color: #f2f2f2;
+}
+.en-2block h1 {
+    padding-top: 2em;
+    color: var(--primary-accent-color);
+    font-family: 'MuseoSlab700';
+    text-align: center;
+}
+.en-3block img {
+    width: 100%;
+}
+.en-3block h5 {
+    font-family: 'MuseoSlab700';
+    text-align: justify;
+}
+
+.en-4block h1 {
+    padding-top: 2em;
+    color: var(--primary-accent-color);
+    font-family: 'MuseoSlab700';
+    text-align: center;
+}
+
+.en-4block li {
+    font-family: 'MuseoSlab700';
+}
+
+.en-4block h5 {
+    font-weight: bold;
+    margin-top: 1.5em;
+    text-transform: uppercase;
+}
+
+
+.en-5block h1 {
+    padding-top: 2em;
+    color: var(--primary-accent-color);
+    font-family: 'MuseoSlab700';
+    text-align: center;
+}
+
+.en-5block li {
+    font-family: 'MuseoSlab700';
+}
+
+.en-5block h5 {
+    font-weight: bold;
+    margin-top: 1.5em;
+    text-transform: uppercase;
+}
+.en-5block h5 span {
+    text-transform: none;
+}
+
+
+.card-photos-a:hover {
+    text-decoration: none;
+}
+.card-photos-a h5 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
